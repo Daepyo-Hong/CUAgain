@@ -172,7 +172,7 @@
 	width: 70px;
 }
 .empPosi{
-	width: 40px;
+	width: 60px;
 }
 .empPhone{
 	width: 120px;
@@ -181,7 +181,7 @@
 	width: 220px;
 }
 .empli{
-	height:600px;
+	height:550px;
 	overflow: scroll;
 }
 ::-webkit-scrollbar {
