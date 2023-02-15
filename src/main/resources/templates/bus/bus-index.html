@@ -80,9 +80,9 @@ th:replace="~{layout/admin :: adminLayout(~{this::head}, ~{::main})}">
 	<div id="list-display" class="flex">
 	</div>
 	<aside id="bus-chat-bot">
-		<h1>챗봇</h1>
+
 		<div class="wrap">
-			<button type="button" id="btn-chat-open" onclick="openChat()">버스안내봇</button>
+			<button style="width: 50px;height: 50px;border-radius: 50%; overflow: hidden" type="button" id="btn-chat-open" onclick="openChat()"><img src="/image/icon/advanced.png" width="50px" height="50px"> </button>
 			<th:block th:insert="~{chatbot/chat-bot-bus::#chat-disp}" />
 		</div>
 	</aside>
